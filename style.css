@@ -1,39 +1,50 @@
 body {
-    font-family: "Garamond", "Times New Roman", serif;
-    background-color: rgb(40, 40, 40);
-    color: rgb(230, 230, 230);
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: rgb(255, 153, 247);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 50px;
+    font-weight: 100;
 }
 
 p {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .one {
-    color: pink;
+    color: rgb(255, 0, 221);
+    padding: 25px;
+    background-color: honeydew;
+    border-radius: 100px;
+    box-sizing: border-box;
+    width: 30vw;
+    margin: 25px auto;
+    border: 5px solid purple;
 }
 
-.two.adjust-font-size {
-    color: gold;
-    font-size: 12px;
+.two {
+    color: rgb(0, 81, 255);
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 30vw;
+    margin: 25px 45%;
+    padding: 25px;
+    border: 5px dashed purple;
 }
 
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
-.odd {
-    background-color: darkcyan;
-}
-
-.even {
-    color: darkcyan;
-}
-
-#highlight {
-    background-color: yellow;
+.three {
+    color: rgb(0, 255, 174);
+    font-size: 21px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 30vw;
+    margin: 25px 35%;
+    padding: 25px;
+    border: 5px solid purple;
 }
